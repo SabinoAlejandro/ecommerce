@@ -2,16 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-const config = {
-  apiKey: 'AIzaSyBvbzs-E-6jxeB1nq-lByal9xNIY-qZPSE',
-  authDomain: 'ecommerce-db-2addb.firebaseapp.com',
-  databaseURL: 'https://ecommerce-db-2addb.firebaseio.com',
-  projectId: 'ecommerce-db-2addb',
-  storageBucket: 'ecommerce-db-2addb.appspot.com',
-  messagingSenderId: '575046769256',
-  appId: '1:575046769256:web:6d3791057468a8465db9dd',
-  measurementId: 'G-KXTDVDV27Q'
-};
+const config = {};
 
 firebase.initializeApp(config);
 
